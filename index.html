@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with External CSS</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Adam Kurniantoro</h1>
+      <h2 class="dynamic-text"></h2>
+      <button class="button_intro px-2" id="scrollBtn">About Me</button>    
+    </div>
+  </section>
+
+  <h1 id="about">About Me</h1>
+  <div class="about" >
+    <p>I am currently a student at Universitas Amikom Yogyakarta, pursuing a degree in S1 Informatics. Throughout my academic journey, I have gained in-depth knowledge about various aspects of the IT industry, which has fueled my passion to further apply my skills. My areas of focus are web development, UI/UX design, and data analysis, as I find these fields both challenging and rewarding. I am always eager to stay up to date with technological advancements, and I pride myself on my ability to quickly absorb new information and apply it effectively. In addition to my academic pursuits, I have a deep interest in physical activities, particularly cycling, which helps me stay active and maintain my health. I also practice archery, a hobby that sharpens my focus, precision, and patience. This balance of intellectual curiosity and physical discipline allows me to stay grounded and motivated in both my personal and professional life.</p>
+    <img src="foto-saya.jpg" alt="Foto Saya">
+  </div>
+
+  <h2>Education</h2>
+    <div class="education">
+      <div class="school">
+        <h3>Universitas Amikom Yogyakarta</h3>
+        <p><span>2021 - Present</span> | S1 Informatika | IPK 3.72</p>
+        <p>Related courses: Pemrograman Basis Data, Pemrograman Web, Big Data dan Analisis Prediksi, Data Mining, Komputer Grafis, Kecerdasan Buatan, Komunikasi Negosiasi, and Kecakapan Antar personal.</p>
+      </div>
+      <div class="school">
+        <h3>SMKN 2 Depok Sleman</h3>
+        <p><span>2017 - 2021</span> | Teknik Otomasi Industri</p>
+        <p>I studied basic electricity, PLC programming, the implementation of Arduino programming in finished products, and electrical installation. I also completed a 7-month internship at Schneider Electric Cikarang as a quality control.</p>
+      </div>
+    </div>
+
+    <h1>Experience</h1>
+    <div class="experience">
+      
+      <!-- Pengalaman Asisten Dosen -->
+      <div class="job">
+        <h3>Asisten Dosen</h3>
+        <p><span>Januari 2023 – Januari 2024</span> | Mata Kuliah Algoritma dan Pemrograman</p>
+        <ul>
+          <li>Membantu dosen dalam penyampaian materi kepada mahasiswa</li>
+          <li>Mendampingi mahasiswa dalam praktikum</li>
+          <li>Melaakukan penilaian terhadap laporan praktikum mahasiswa</li>
+        </ul>
+      </div>
+
+      <!-- Pengalaman Pengembangan Web -->
+      <div class="job">
+        <h3>Pengembangan Web</h3>
+        <p><span>Maret 2023 – Mei 2023</span> | Pengembangan Website Informasi Sekolah</p>
+        <ul>
+          <li>Melakukan analisa kebutuhan user</li>
+          <li>Menyusun perencanaan pengembangan web</li>
+          <li>Membuat database sesuai kebutuhan website</li>
+          <li>Membuat desain UI/UX serta prototype</li>
+          <li>Melakukan pemrograman website</li>
+        </ul>
+      </div>
+
+      <!-- Pengalaman Proyek Analisis Data Penyakit Jantung -->
+      <div class="job">
+        <h3>Proyek Analisis Data Penyakit Jantung</h3>
+        <p><span>Oktober 2023 – Desember 2023</span> | Prediktif Analisis Dengan Machine Learning</p>
+        <ul>
+          <li>Melakukan pencarian dan cleaning data</li>
+          <li>Melakukan analisis korelasi untuk menentukan parameter yang tepat</li>
+          <li>Pengembangan Model Machine Learning</li>
+          <li>Menerapkan evaluasi hasil permodelan</li>
+        </ul>
+      </div>
+
+      <div class="button-container">
+        <a href="portfolio.html">
+          <button class="portfolio-button">
+            Go to Portfolio
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+
+  <script src="script.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>

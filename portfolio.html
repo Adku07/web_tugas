@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .project-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .project-card h3 {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .project-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .cta-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-align: center;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #333;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer-icons i {
+      margin: 0 10px;
+      font-size: 1.5rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about-me">
+    <div class="section-title">
+      <h3>About Me</h3>
+      <p>I am a passionate web developer with a strong interest in UI/UX design and data analysis. My skills range from front-end development to creating fully responsive websites and intuitive user interfaces. I am always eager to learn and keep up with the latest trends in the tech industry.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-title">
+      <h2>My Projects</h2>
+    </div>
+    <div class="project-container">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Website Development</h3>
+        <p>A fully responsive website built for a local business. Includes e-commerce functionality and custom design.</p>
+        
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>UI/UX Design</h3>
+        <p>Created an intuitive UI/UX design for a mobile app, focusing on user-friendly navigation and sleek design elements.</p>
+        
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Data Analysis</h3>
+        <p>Performed data analysis on healthcare data to predict trends and outcomes using machine learning models.</p>
+        
+      </div>
+
+    </div>
+  </section>
+
+  
+
+</body>
+</html>

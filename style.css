@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(243, 247, 255)
+}
+
+.button_intro{
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button_intro:hover{
+    background: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+
+  }
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(243, 247, 255);
+    height: 5%;
+}
+
+.about p{
+    flex: 1; /* Agar teks mengisi ruang yang tersisa */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 70%;
+
+}
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    object-fit: cover; /* Menyesuaikan gambar agar tidak terdistorsi */
+    margin-left: 2rem;
+  }
+  .education {
+    margin-top: 3rem;
+    
+    padding: 2rem;
+  }
+
+  .education .school {
+    margin-bottom: 2rem;
+  }
+
+  .education .school h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+
+  .education .school p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  .education .school span {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .experience {
+    margin-top: 3rem;
+    padding: 2rem;
+  }
+
+  .experience .job {
+    margin-bottom: 2rem;
+    background-color: rgb(243, 247, 255);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .experience .job h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: #333;
+  }
+
+  .experience .job p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  .experience .job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .experience .job span {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  .portfolio-button {
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .portfolio-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  .portfolio-button i {
+    margin-left: 8px;
+    font-size: 1.2rem;
+  }
+
+.dynamic-text {
+  animation: fade 0.5s linear;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
